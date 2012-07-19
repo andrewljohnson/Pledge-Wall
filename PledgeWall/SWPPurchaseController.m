@@ -54,8 +54,8 @@
   if (pledgeWall) {
     return pledgeWall;
   }
-  pledgeWall = [[SWPPledgeWall alloc]initWithStyle:UITableViewStyleGrouped];
-  SWPPledgeTable *pledgeTable = [[SWPPledgeTable alloc]initWithStyle:UITableViewStyleGrouped];
+  self.pledgeWall = [[[SWPPledgeWall alloc]initWithStyle:UITableViewStyleGrouped] autorelease];
+  SWPPledgeTable *pledgeTable = [[[SWPPledgeTable alloc]initWithStyle:UITableViewStyleGrouped] autorelease];
   pledgeTable.pledgeProducts = self.products;  
   pledgeTable.pledgeWall = pledgeWall; 
   pledgeWall.pledgeTable = pledgeTable;
