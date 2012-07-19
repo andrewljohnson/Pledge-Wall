@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PledgeWall' target in the 'PledgeWall' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+#endif

@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		238C64B715A39D45009B41DE /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 238C64B815A39D45009B41DE /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				238C64BB15A39D53009B41DE /* ShellScript */,
+			);
+			dependencies = (
+				238C64BD15A39F3A009B41DE /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		238C648115A3924E009B41DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238C648015A3924E009B41DE /* Foundation.framework */; };
+		238C648715A3924E009B41DE /* PledgeWall.m in Sources */ = {isa = PBXBuildFile; fileRef = 238C648615A3924E009B41DE /* PledgeWall.m */; };
+		238C649515A3926D009B41DE /* SavingDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 238C648D15A3926D009B41DE /* SavingDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238C649615A3926D009B41DE /* SavingDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 238C648E15A3926D009B41DE /* SavingDictionary.m */; };
+		238C649715A3926D009B41DE /* SWPPledgeTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 238C648F15A3926D009B41DE /* SWPPledgeTable.h */; };
+		238C649815A3926D009B41DE /* SWPPledgeTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 238C649015A3926D009B41DE /* SWPPledgeTable.m */; };
+		238C649915A3926D009B41DE /* SWPPledgeWall.h in Headers */ = {isa = PBXBuildFile; fileRef = 238C649115A3926D009B41DE /* SWPPledgeWall.h */; };
+		238C649A15A3926D009B41DE /* SWPPledgeWall.m in Sources */ = {isa = PBXBuildFile; fileRef = 238C649215A3926D009B41DE /* SWPPledgeWall.m */; };
+		238C649B15A3926D009B41DE /* SWPPurchaseController.h in Headers */ = {isa = PBXBuildFile; fileRef = 238C649315A3926D009B41DE /* SWPPurchaseController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238C649C15A3926D009B41DE /* SWPPurchaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 238C649415A3926D009B41DE /* SWPPurchaseController.m */; };
+		238C649D15A392D1009B41DE /* PledgeWall.h in Headers */ = {isa = PBXBuildFile; fileRef = 238C648515A3924E009B41DE /* PledgeWall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238C649F15A393B5009B41DE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238C649E15A393B5009B41DE /* Parse.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		238C64BC15A39F3A009B41DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 238C647415A3924E009B41DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 238C647C15A3924E009B41DE;
+			remoteInfo = PledgeWall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		238C647D15A3924E009B41DE /* libPledgeWall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPledgeWall.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		238C648015A3924E009B41DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		238C648415A3924E009B41DE /* PledgeWall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PledgeWall-Prefix.pch"; sourceTree = "<group>"; };
+		238C648515A3924E009B41DE /* PledgeWall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PledgeWall.h; sourceTree = "<group>"; };
+		238C648615A3924E009B41DE /* PledgeWall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PledgeWall.m; sourceTree = "<group>"; };
+		238C648D15A3926D009B41DE /* SavingDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavingDictionary.h; sourceTree = "<group>"; };
+		238C648E15A3926D009B41DE /* SavingDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavingDictionary.m; sourceTree = "<group>"; };
+		238C648F15A3926D009B41DE /* SWPPledgeTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPPledgeTable.h; sourceTree = "<group>"; };
+		238C649015A3926D009B41DE /* SWPPledgeTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPPledgeTable.m; sourceTree = "<group>"; };
+		238C649115A3926D009B41DE /* SWPPledgeWall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPPledgeWall.h; sourceTree = "<group>"; };
+		238C649215A3926D009B41DE /* SWPPledgeWall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPPledgeWall.m; sourceTree = "<group>"; };
+		238C649315A3926D009B41DE /* SWPPurchaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPPurchaseController.h; sourceTree = "<group>"; };
+		238C649415A3926D009B41DE /* SWPPurchaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPPurchaseController.m; sourceTree = "<group>"; };
+		238C649E15A393B5009B41DE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = PledgeWall/Parse.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		238C647A15A3924E009B41DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238C648115A3924E009B41DE /* Foundation.framework in Frameworks */,
+				238C649F15A393B5009B41DE /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		238C647215A3924E009B41DE = {
+			isa = PBXGroup;
+			children = (
+				238C649E15A393B5009B41DE /* Parse.framework */,
+				238C648215A3924E009B41DE /* PledgeWall */,
+				238C647F15A3924E009B41DE /* Frameworks */,
+				238C647E15A3924E009B41DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		238C647E15A3924E009B41DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				238C647D15A3924E009B41DE /* libPledgeWall.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		238C647F15A3924E009B41DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				238C648015A3924E009B41DE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		238C648215A3924E009B41DE /* PledgeWall */ = {
+			isa = PBXGroup;
+			children = (
+				238C648515A3924E009B41DE /* PledgeWall.h */,
+				238C648615A3924E009B41DE /* PledgeWall.m */,
+				238C648D15A3926D009B41DE /* SavingDictionary.h */,
+				238C648E15A3926D009B41DE /* SavingDictionary.m */,
+				238C648F15A3926D009B41DE /* SWPPledgeTable.h */,
+				238C649015A3926D009B41DE /* SWPPledgeTable.m */,
+				238C649115A3926D009B41DE /* SWPPledgeWall.h */,
+				238C649215A3926D009B41DE /* SWPPledgeWall.m */,
+				238C649315A3926D009B41DE /* SWPPurchaseController.h */,
+				238C649415A3926D009B41DE /* SWPPurchaseController.m */,
+				238C648315A3924E009B41DE /* Supporting Files */,
+			);
+			path = PledgeWall;
+			sourceTree = "<group>";
+		};
+		238C648315A3924E009B41DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				238C648415A3924E009B41DE /* PledgeWall-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		238C647B15A3924E009B41DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238C649515A3926D009B41DE /* SavingDictionary.h in Headers */,
+				238C649715A3926D009B41DE /* SWPPledgeTable.h in Headers */,
+				238C649915A3926D009B41DE /* SWPPledgeWall.h in Headers */,
+				238C649B15A3926D009B41DE /* SWPPurchaseController.h in Headers */,
+				238C649D15A392D1009B41DE /* PledgeWall.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		238C647C15A3924E009B41DE /* PledgeWall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238C648A15A3924E009B41DE /* Build configuration list for PBXNativeTarget "PledgeWall" */;
+			buildPhases = (
+				238C647915A3924E009B41DE /* Sources */,
+				238C647A15A3924E009B41DE /* Frameworks */,
+				238C647B15A3924E009B41DE /* Headers */,
+				238C64B615A39C81009B41DE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PledgeWall;
+			productName = PledgeWall;
+			productReference = 238C647D15A3924E009B41DE /* libPledgeWall.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		238C647415A3924E009B41DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 238C647715A3924E009B41DE /* Build configuration list for PBXProject "PledgeWall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 238C647215A3924E009B41DE;
+			productRefGroup = 238C647E15A3924E009B41DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				238C647C15A3924E009B41DE /* PledgeWall */,
+				238C64B715A39D45009B41DE /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		238C64B615A39C81009B41DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"";
+		};
+		238C64BB15A39D53009B41DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		238C647915A3924E009B41DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238C648715A3924E009B41DE /* PledgeWall.m in Sources */,
+				238C649615A3926D009B41DE /* SavingDictionary.m in Sources */,
+				238C649815A3926D009B41DE /* SWPPledgeTable.m in Sources */,
+				238C649A15A3926D009B41DE /* SWPPledgeWall.m in Sources */,
+				238C649C15A3926D009B41DE /* SWPPurchaseController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		238C64BD15A39F3A009B41DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 238C647C15A3924E009B41DE /* PledgeWall */;
+			targetProxy = 238C64BC15A39F3A009B41DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		238C648815A3924E009B41DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_PERMISSIONS_FILES = armv7;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		238C648915A3924E009B41DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_PERMISSIONS_FILES = armv7;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		238C648B15A3924E009B41DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_PERMISSIONS_FILES = (
+					armv6,
+					armv7,
+					i386,
+				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/PledgeWall.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PledgeWall\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PledgeWall/PledgeWall-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		238C648C15A3924E009B41DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_PERMISSIONS_FILES = (
+					armv6,
+					armv7,
+					i386,
+				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/PledgeWall.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PledgeWall\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PledgeWall/PledgeWall-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		238C64B915A39D45009B41DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		238C64BA15A39D45009B41DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		238C647715A3924E009B41DE /* Build configuration list for PBXProject "PledgeWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238C648815A3924E009B41DE /* Debug */,
+				238C648915A3924E009B41DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238C648A15A3924E009B41DE /* Build configuration list for PBXNativeTarget "PledgeWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238C648B15A3924E009B41DE /* Debug */,
+				238C648C15A3924E009B41DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		238C64B815A39D45009B41DE /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238C64B915A39D45009B41DE /* Debug */,
+				238C64BA15A39D45009B41DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 238C647415A3924E009B41DE /* Project object */;
+}
