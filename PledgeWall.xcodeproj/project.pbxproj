@@ -33,7 +33,7 @@
 		238C649B15A3926D009B41DE /* SWPPurchaseController.h in Headers */ = {isa = PBXBuildFile; fileRef = 238C649315A3926D009B41DE /* SWPPurchaseController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		238C649C15A3926D009B41DE /* SWPPurchaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 238C649415A3926D009B41DE /* SWPPurchaseController.m */; };
 		238C649D15A392D1009B41DE /* PledgeWall.h in Headers */ = {isa = PBXBuildFile; fileRef = 238C648515A3924E009B41DE /* PledgeWall.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		238C649F15A393B5009B41DE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238C649E15A393B5009B41DE /* Parse.framework */; };
+		D9E7269115B7D8A3005C0EE9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E7269015B7D8A3005C0EE9 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 		238C649215A3926D009B41DE /* SWPPledgeWall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPPledgeWall.m; sourceTree = "<group>"; };
 		238C649315A3926D009B41DE /* SWPPurchaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPPurchaseController.h; sourceTree = "<group>"; };
 		238C649415A3926D009B41DE /* SWPPurchaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPPurchaseController.m; sourceTree = "<group>"; };
-		238C649E15A393B5009B41DE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = PledgeWall/Parse.framework; sourceTree = "<group>"; };
+		D9E7269015B7D8A3005C0EE9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				238C648115A3924E009B41DE /* Foundation.framework in Frameworks */,
-				238C649F15A393B5009B41DE /* Parse.framework in Frameworks */,
+				D9E7269115B7D8A3005C0EE9 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +79,7 @@
 		238C647215A3924E009B41DE = {
 			isa = PBXGroup;
 			children = (
-				238C649E15A393B5009B41DE /* Parse.framework */,
+				D9E7269015B7D8A3005C0EE9 /* Parse.framework */,
 				238C648215A3924E009B41DE /* PledgeWall */,
 				238C647F15A3924E009B41DE /* Frameworks */,
 				238C647E15A3924E009B41DE /* Products */,
@@ -295,22 +295,22 @@
 					armv7,
 					i386,
 				);
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
 				DSTROOT = /tmp/PledgeWall.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/PledgeWall\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PledgeWall/PledgeWall-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$SRCROOT/Parse.framework/Headers/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
-				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -322,22 +322,22 @@
 					armv7,
 					i386,
 				);
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
 				DSTROOT = /tmp/PledgeWall.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/PledgeWall\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PledgeWall/PledgeWall-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$SRCROOT/Parse.framework/Headers/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
-				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
@@ -374,6 +374,7 @@
 				238C648C15A3924E009B41DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		238C64B815A39D45009B41DE /* Build configuration list for PBXAggregateTarget "Framework" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +383,7 @@
 				238C64BA15A39D45009B41DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
